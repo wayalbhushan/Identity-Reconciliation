@@ -67,6 +67,7 @@ Analyzes the incoming contact payload, links it to existing identities if a matc
   "phoneNumber": "123456"
 }
 ---
+```
 **Example Response:**
 ```json
 {
