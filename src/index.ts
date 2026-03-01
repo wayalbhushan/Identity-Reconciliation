@@ -3,7 +3,7 @@ import helmet from 'helmet';
 import { PrismaClient } from '@prisma/client';
 import { z } from 'zod';
 
-const app = express();
+const app = express(); 
 const prisma = new PrismaClient();
 
 // Security Middlewares 
