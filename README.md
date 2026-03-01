@@ -66,7 +66,7 @@ Analyzes the incoming contact payload, links it to existing identities if a matc
   "email": "mcfly@hillvalley.edu",
   "phoneNumber": "123456"
 }
----
+
 ```
 **Example Response:**
 ```json
