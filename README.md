@@ -1,4 +1,4 @@
-# ⚡ BiteSpeed Backend Task: Identity Reconciliation
+# Identity Reconciliation
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -6,13 +6,13 @@
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-> **BiteSpeed Software Engineering Assignment** > **Built with a Builder-Breaker Mindset: Secure, Optimized, and Scalable.**
+> **Built with a Builder-Breaker Mindset: Secure, Optimized, and Scalable.**
 
 An advanced, production-ready microservice engineered to continually consolidate scattered customer contact information (emails and phone numbers) into unified Identity Clusters. This ensures that users, like "Doc Brown" at FluxKart, receive a seamless and personalized experience regardless of how many different contact methods they use.
 
 ---
 
-## ✅ Task Submission Checklist
+## ✅ Checklist
 - [x] **1. Publish to GitHub:** Repository is public and strictly documented.
 - [x] **2. Insightful Commits:** Development history is tracked with atomic, descriptive commits.
 - [x] **3. Expose Endpoint:** The `/identify` route is fully operational.
