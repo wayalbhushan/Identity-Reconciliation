@@ -48,7 +48,7 @@ The core algorithm performs these operations dynamically in an ACID-compliant tr
 As an engineer with a strong Application Security background (Meta Security Engineering Intern Finalist), I prioritize defensively written code. The system does not just perform identity operations; it actively mitigates standard OWASP vulnerabilities:
 - **Injection Attacks Mitigation (SQLi):** Direct usage of Prisma ORM prevents arbitrary payload execution and SQL injection attacks entirely.
 - **Payload & Input Validation:** Strict schema validation via `Zod` blocks malformed requests, enforces rigorous data typing, and sanitizes input payloads (e.g., whitespace trimming).
-- **DDoS Protection:** Express instances enforce payload limit caps (`10kb`) to prevent memory exhaustion from overwhelmingly large JSON bodies.
+- **DDoS Protection:** Express instances with payload limit caps (`10kb`) to prevent memory exhaustion from overwhelmingly large JSON bodies.
 - **HTTP Header Hardening:** Integration with `Helmet` systematically protects Express responses from standard XSS vulnerabilities and clickjacking by setting strict HTTP headers.
 - **Race Condition Prevention:** The critical Graph Merger logic is wrapped in a single `$transaction` block, natively avoiding TOCTOU (Time-of-Check to Time-of-Use) concurrency vulnerabilities during multi-node repointing.
 - **Information Disclosure:** The system utilizes robust error boundaries that trap failures and return graceful `HTTP 500`s without leaking valuable stack traces to potential adversaries.
